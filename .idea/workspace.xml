@@ -51,9 +51,12 @@
   </component>
   <component name="Git.Settings">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
 =======
+=======
+>>>>>>> 40b06c1a45141d8061d3ec59b345f443422154b4
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -182,6 +185,7 @@
       <option name="presentableId" value="Default" />
       <updated>1525605685982</updated>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <workItem from="1525605692793" duration="7206000" />
       <workItem from="1525773127495" duration="1011000" />
       <workItem from="1525774375067" duration="358000" />
@@ -190,10 +194,14 @@
 =======
       <workItem from="1525605692793" duration="12583000" />
 >>>>>>> 40b06c1a45141d8061d3ec59b345f443422154b4
+=======
+      <workItem from="1525605692793" duration="12583000" />
+>>>>>>> 40b06c1a45141d8061d3ec59b345f443422154b4
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
 <<<<<<< HEAD
     <option name="totallyTimeSpent" value="10879000" />
   </component>
@@ -230,6 +238,8 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32979852" />
 =======
+=======
+>>>>>>> 40b06c1a45141d8061d3ec59b345f443422154b4
     <option name="totallyTimeSpent" value="12583000" />
   </component>
   <component name="ToolWindowManager">
