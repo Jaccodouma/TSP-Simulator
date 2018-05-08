@@ -28,6 +28,7 @@ public class Hoofdscherm extends JPanel implements ActionListener {
     private JPanel opl4Panel;
     private JTextField opl4TextField;
 
+    private Dimension labelDimension;
     private Dimension panelDimension;
     private Dimension textFieldDimension;
 
@@ -36,7 +37,7 @@ public class Hoofdscherm extends JPanel implements ActionListener {
     public Hoofdscherm() {
         blackline = BorderFactory.createLineBorder(Color.black);
 
-        
+        labelDimension = new Dimension(250, 50);
         panelDimension = new Dimension(250,250);
         textFieldDimension = new Dimension(250,100);
 
@@ -55,8 +56,10 @@ public class Hoofdscherm extends JPanel implements ActionListener {
         c.gridx = 0;
         c.gridwidth = 1;
 
-        opl1Label = new JLabel("Oplossing 1");
+        opl1Label = new JLabel("Oplossing 1", SwingConstants.CENTER);
         c.gridy = 1;
+        opl1Label.setPreferredSize(labelDimension);
+        opl1Label.setMinimumSize(labelDimension);
         opl1Label.setBorder(blackline);
         add(opl1Label,c);
 
@@ -76,8 +79,11 @@ public class Hoofdscherm extends JPanel implements ActionListener {
         // OPLOSSING 2
         c.gridx = 1;
 
-        opl2Label = new JLabel("Oplossing 2");
+        opl2Label = new JLabel("Oplossing 2", SwingConstants.CENTER);
         c.gridy = 1;
+        opl2Label.setPreferredSize(labelDimension);
+        opl2Label.setMinimumSize(labelDimension);
+        opl2Label.setBorder(blackline);
         add(opl2Label, c);
 
         opl2Panel = new JPanel();
@@ -96,8 +102,11 @@ public class Hoofdscherm extends JPanel implements ActionListener {
         // OPLOSSING 3
         c.gridx = 2;
 
-        opl3Label = new JLabel("Oplossing 3");
+        opl3Label = new JLabel("Oplossing 3", SwingConstants.CENTER);
         c.gridy = 1;
+        opl3Label.setPreferredSize(labelDimension);
+        opl3Label.setMinimumSize(labelDimension);
+        opl3Label.setBorder(blackline);
         add(opl3Label, c);
 
         opl3Panel = new JPanel();
@@ -116,8 +125,11 @@ public class Hoofdscherm extends JPanel implements ActionListener {
         // OPLOSSING 4
         c.gridx = 3;
 
-        opl4Label = new JLabel("Oplossing 4");
+        opl4Label = new JLabel("Oplossing 4", SwingConstants.CENTER);
         c.gridy = 1;
+        opl4Label.setPreferredSize(labelDimension);
+        opl4Label.setMinimumSize(labelDimension);
+        opl4Label.setBorder(blackline);
         add(opl4Label, c);
 
         opl4Panel = new JPanel();
